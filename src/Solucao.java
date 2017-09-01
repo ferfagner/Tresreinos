@@ -45,4 +45,18 @@ public class Solucao {
 		return resultado;
 	}
 
+	// resultado questão c
+
+	public int calcularQntdedeViagens(String nomeGovernante, ArrayList<Governante> governantes) {
+		int resultado = 0;
+
+		for (int i = 0; i < governantes.size(); i++) {
+			if (governantes.get(i).getNome().equals(nomeGovernante)) {
+				resultado = (governantes.get(i).getPedidoouro() / 50) + (governantes.get(i).getPedidomadeira() / 100)
+						+ (governantes.get(i).getPedidoagua() / 1000);
+			}
+		}
+		return resultado;
+	}
+
 }
