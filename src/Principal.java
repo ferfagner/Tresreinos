@@ -23,6 +23,9 @@ public class Principal {
 		System.out.println(s.getQtdeFicarVivo("Montante", governantes));
 		System.out.println(s.getQtdeFicarVivo("Lenha", governantes));
 		System.out.println(s.getQtdeFicarVivo("Clareza", governantes));
+		System.out.println(s.calcularQntdedeViagens("Montante", governantes));
+		System.out.println(s.calcularQntdedeViagens("Lenha", governantes));
+		System.out.println(s.calcularQntdedeViagens("Clareza", governantes));
 	}
 
 }
